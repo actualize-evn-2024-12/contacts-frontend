@@ -13,3 +13,4 @@ export function ContactsIndex({ contacts }) {
     </div>
   );
 }
+

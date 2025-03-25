@@ -5,6 +5,8 @@ import { Footer } from "./Footer";
 
 axios.defaults.baseURL = "http://localhost:3000";
 axios.defaults.withCredentials = true;
+axios.defaults.baseURL = import.meta.env.MODE === "development" ? "http://localhost:3000" : "https://contacts-api-nwa3.onrender.com";
+
 
 function App() {
   return (
