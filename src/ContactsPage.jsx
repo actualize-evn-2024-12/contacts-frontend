@@ -7,7 +7,7 @@ export function ContactsPage() {
 
   const handleIndex = () => {
     console.log('handling index')
-    axios.get('https://contacts-api-0t45.onrender.com/contacts.json').then(response => {
+    axios.get('/contacts.json').then(response => {
       console.log(response.data)
       setContacts(response.data)
     })
