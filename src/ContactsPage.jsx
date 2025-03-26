@@ -18,6 +18,7 @@ export function ContactsPage() {
   return (
     <main>
       <h1>Welcome to React!</h1>
+      <a href="https://github.com/login/oauth/authorize?client_id=Ov23liY1ErX08xyzdld6">Sign in with github</a>
       <ContactsIndex contacts={contacts}/>
     </main>
   )
